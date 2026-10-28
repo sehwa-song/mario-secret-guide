@@ -1,0 +1,25 @@
+node_modules/
+dist/
+.venv/
+__pycache__/
+*.pyc
+target/
+data/
+.env
+.DS_Store
+
+# 추가 환경변수 및 비밀 키 파일
+.env.*
+!.env.example
+!.env.sample
+
+# SQLite 데이터베이스
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+
+# 사용하지 않는 프로젝트 템플릿
+/backend-express/
+/backend-spring/
+/frontend-vue/
